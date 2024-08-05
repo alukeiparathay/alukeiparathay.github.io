@@ -102,7 +102,7 @@ div.card{
 
     
 }
-div.card > h2 {
+h2.my-h2 {
     font-weight: 700;
     font-size: 26px;
     margin-top: 10px;
@@ -122,16 +122,47 @@ div.card>p {
     display : flex;
     justify-content: space-around;
     column-gap: 20px;
-    padding: 5% 10%
+    padding: 5% 10%;
 
 }
 
 section.featured-works {
     background-color:white;
     padding: 1.5% 18%;
+    display : flex;
+    flex-direction: column;
+    row-gap: 20px;
+
 }
 
-div.horizontal
+div.horizontal-card {
+    display: flex;
+    column-gap: 3%;
+}
+
+span.pill {
+    background-color: #142850;
+    padding: 1.5px 15px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+span.secondary-text {
+    color: #8695A4;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+div.horizontal-card>div>p{
+    color: #21243d;
+    font-size: 16px;
+}
+
+div.horizontal-card>img{
+    border-radius: 6px;
+}
 
 
 

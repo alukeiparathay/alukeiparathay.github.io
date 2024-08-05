@@ -1,0 +1,140 @@
+body {
+    font-family: 'Heebo';
+    font-weight: 40000;
+}
+
+a.navbar-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+#navbar-div {
+    display: flex;
+    justify-content: flex-end; 
+    column-gap: 20px;
+    padding: 10px;
+    /* outline: 1px solid  black; */
+    font-weight: 900;
+
+}
+
+#backdrop {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 25px;
+    padding: 0px 10%;
+    margin-top: 8%;
+}
+
+/* #backdrop>div{
+    /* width: 40%; */
+    /* height: 150px; */
+    /* background-color: red; */
+    /* border: 1px solid red */
+
+
+/* } */ */
+
+#backdrop-left-column {
+    width: 50%
+}
+
+#backdrop-left-column > h1 {
+    font-weight:700;
+    font-size: 44px;
+    color: #21243D
+}
+
+#backdrop-left-column > p {
+    font-weight:400;
+    font-size: 16px;
+    color: #21243D
+}
+
+#backdrop-left-button {
+    background-color: #ff6464;
+    /* font-size: 44px; */
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 0;
+
+}
+
+
+
+#backdrop-right-column {
+    height: 150px;
+    text-align:center;
+
+    width: 45%
+}
+
+#recent-blog-posts-section {
+    background-color: #d5d9db;
+    padding: 3% 10%;
+
+}
+
+#recent-posts-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#recent-posts-header >h4{
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    color: #21243d;
+}
+
+
+div.card{
+    color:#21243D;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 22px;
+
+    
+}
+div.card > h2 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.card > span {
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+div.card>p {
+    font-size: 16px;
+}
+
+#card-container{
+    display : flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    padding: 5% 10%
+
+}
+
+section.featured-works {
+    background-color:white;
+    padding: 1.5% 18%;
+}
+
+div.horizontal
+
+
+
+
+
+ 

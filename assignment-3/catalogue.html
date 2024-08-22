@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="number"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .book-item {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Add a Book</h1>
+        <form id="bookForm">
+            <label for="title">Book Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="author">Author Name:</label>
+            <input type="text" id="author" name="author" required>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+
+            <input type="submit" value="Add Book">
+        </form>
+    </section>
+
+    <section>
+        <h2>Book List</h2>
+        <div id="bookList"></div>
+        <a href="search.html" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #008CBA; color: white; text-decoration: none; border-radius: 5px;">Search for Books</a>
+
+    </section>
+
+    <script src="catalogue.js"></script>
+</body>
+</html>
